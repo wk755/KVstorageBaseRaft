@@ -1,0 +1,13 @@
+//定义了一个叫做 RpcHeader 的消息结构，在你构建一个自定义的 RPC 框架（比如 Mprpc）时，通常会用于网络通信中标识请求的目标服务和方法。
+//框架内部自己定义的消息头格式，用的时候直接包含头文件即可
+
+syntax = "proto3";
+
+package RPC;
+
+message RpcHeader
+{
+    bytes service_name = 1;
+    bytes method_name = 2;
+    uint32 args_size = 3; //这里虽然是uint32，但是protobuf编码的时候默认就是变长编码，可见：https://www.cnblogs.com/yangwenhuan/p/10328960.html
+}

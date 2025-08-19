@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/test_scheduler.dir/test_scheduler.cpp.o -o /root/KVstorageBaseRaft-cpp-main/bin/test_scheduler   -L/root/KVstorageBaseRaft-cpp-main/lib  -Wl,-rpath,/root/KVstorageBaseRaft-cpp-main/lib /root/KVstorageBaseRaft-cpp-main/lib/libfiber_lib.a -lpthread -ldl -ldl 

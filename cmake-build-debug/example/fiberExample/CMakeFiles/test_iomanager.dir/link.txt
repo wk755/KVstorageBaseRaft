@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/test_iomanager.dir/test_iomanager.cpp.o -o /root/KVstorageBaseRaft-cpp-main/bin/test_iomanager   -L/root/KVstorageBaseRaft-cpp-main/lib  -Wl,-rpath,/root/KVstorageBaseRaft-cpp-main/lib /root/KVstorageBaseRaft-cpp-main/lib/libfiber_lib.a -lpthread -ldl -ldl 
