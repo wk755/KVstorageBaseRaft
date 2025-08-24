@@ -1,6 +1,6 @@
 # KVstorageBaseRaft
 
-> 基于 **C++20 / Muduo / Protobuf / 自研 RPC / Fiber** 的 **Raft 分布式 KV 存储（教学&可运行）**
+> 基于 **C++20 / Muduo / Protobuf / 自研 RPC / Fiber** 的 **Raft 分布式 KV 存储**
 
 - ✅ Raft：Leader 选举、日志复制、任期与角色切换、快照（InstallSnapshot）与持久化（Persister）  
 - ✅ KV 状态机：`Get / Put / Append`，**ClientId + RequestId** 幂等防重  
